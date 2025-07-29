@@ -1,0 +1,96 @@
+# Network Monitor System - Complete Code Package
+
+This is a complete network monitoring system with all files included. To save this system:
+
+## 📦 **How to Save All Files:**
+
+### **Method 1: Download from VS Code**
+1. In VS Code, go to File → Download
+2. Select "Download as ZIP" to save the entire project
+
+### **Method 2: Copy Files Manually**
+Create these exact file structures on your local machine:
+
+## 📁 **Complete File Structure to Save:**
+
+### **Backend Files:**
+```
+backend/
+├── app.py
+├── database.py
+├── network_monitor.py
+├── firewall_manager.py
+└── requirements.txt
+```
+
+### **Frontend Files:**
+```
+src/
+├── app/
+│   ├── login/page.tsx
+│   ├── dashboard/page.tsx
+│   ├── devices/page.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── hooks/
+│   └── useSocket.ts
+└── components/ui/ (existing Shadcn components)
+```
+
+### **Root Files:**
+```
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+├── tailwind.config.js
+├── postcss.config.js
+├── README.md
+└── .gitignore
+```
+
+## 💾 **Quick Save Instructions:**
+
+### **Option A: Git Repository**
+```bash
+git init
+git add .
+git commit -m "Network Monitor System Complete"
+```
+
+### **Option B: ZIP Archive**
+1. Select all files in the project
+2. Right-click → "Download" or "Export"
+3. Save as `network-monitor.zip`
+
+### **Option C: Manual Copy**
+Copy each file content to your local machine maintaining the exact folder structure shown above.
+
+## 🔧 **Files to Save:**
+
+**Backend (Python):**
+- `backend/app.py` - Main Flask server
+- `backend/database.py` - Database models
+- `backend/network_monitor.py` - Network monitoring
+- `backend/firewall_manager.py` - Windows firewall
+- `backend/requirements.txt` - Dependencies
+
+**Frontend (Next.js):**
+- `src/app/login/page.tsx` - Login page
+- `src/app/dashboard/page.tsx` - Main dashboard
+- `src/app/devices/page.tsx` - Device management
+- `src/app/page.tsx` - Home redirect
+- `src/hooks/useSocket.ts` - WebSocket hook
+
+**Configuration:**
+- `package.json` - Node.js dependencies
+- `README.md` - Complete setup guide
+- All existing configuration files
+
+## 📋 **Verification Checklist:**
+- [ ] All backend Python files saved
+- [ ] All frontend React/TypeScript files saved
+- [ ] Configuration files preserved
+- [ ] README.md included
+- [ ] Dependencies lists included
+
+The system is now ready to be saved and deployed on any Windows machine with the specified requirements.
